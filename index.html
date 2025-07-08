@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flex with JS Styling</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Flex Container with Programmatic Styles</h1>
+</header>
+
+<main>
+    <div class="flex-container" id="flex-container">
+        <div class="flex-item" id="item1">Item 1</div>
+        <div class="flex-item" id="item2">Item 2</div>
+        <div class="flex-item" id="item3">Item 3</div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Simple Flex Assignment</p>
+</footer>
+
+</body>
+
+<script>
+    const container = document.querySelector('#flex-container');
+    container.style.backgroundColor = '#e0f7fa';
+    container.style.border = '2px solid #00796b';
+
+    const item1 = document.querySelector('#item1');
+    const item2 = document.querySelector('#item2');
+    const item3 = document.querySelector('#item3');
+
+    item1.style.backgroundColor = '#ffe0b2';
+    item1.style.border = '1px dashed #f57c00';
+
+    item2.style.backgroundColor = '#c8e6c9';
+    item2.style.border = '1px solid #388e3c';
+
+    item3.style.backgroundColor = '#bbdefb';
+    item3.style.border = '1px dotted #1976d2';
+</script>
+
+</html>

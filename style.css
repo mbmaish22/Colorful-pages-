@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header, footer {
+    background: #2d472c;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.flex-item {
+    flex: 1;
+    text-align: center;
+    padding: 1em;
+}
